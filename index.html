@@ -1,11 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Índice de Géneros Musicales</title>
+    <style>
+        /* Estilos generales */
+        body {
+            background-color: #121212;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        /* Estilos para las tarjetas de cada género */
+        .genre-card {
+            background-color: #222;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            width: 250px;
+            margin: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s;
+        }
+
+        .genre-card:hover {
+            transform: scale(1.05);
+        }
+
+        .genre-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .genre-card a {
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            color: #fff;
+            background-color: #ff5f6d;
+            transition: background-color 0.3s;
+        }
+
+        .genre-card a:hover {
+            background-color: #ff80ed;
+        }
+
+        /* Contenedor de tarjetas */
+        .genres-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 900px;
+        }
+
+       /* Pie de página */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
-    
+
+    <h1>MUSIC PLAYER</h1>
+    <h2>Disfruta de la variedad de canciones que tenemos a gusto</h2>
+
+    <!-- Contenedor de Tarjetas -->
+    <div class="genres-container">
+        
+        <!-- Tarjeta de Música Romántica -->
+        <div class="genre-card">
+            <img src="Img/5.jpeg" alt="Música Romántica">
+            <a href="Musica Romantica/Musica Romantica.html">Música Romántica</a>
+        </div>
+
+        <!-- Tarjeta de Música Rock -->
+        <div class="genre-card">
+            <img src="Img/1.jpeg" alt="Música Rock">
+            <a href="Musica Rock/Musica Rock.html">Música Rock</a>
+        </div>
+
+        <!-- Tarjeta de Música Pop -->
+        <div class="genre-card">
+            <img src="Img/4.jpeg" alt="Música Pop">
+            <a href="Musica Pop/Genero Pop.html">Música Pop</a>
+        </div>
+
+        <!-- Tarjeta de Música Electrónica -->
+        <div class="genre-card">
+            <img src="Img/2.jpeg" alt="Música Electrónica">
+            <a href="Musica Electronica/Musica Electronica.html">Música Electrónica</a>
+        </div>
+
+        <!-- Tarjeta de Música Clásica -->
+        <div class="genre-card">
+            <img src="Img/3.jpeg" alt="Música Clásica">
+            <a href="Musica Clasica/Musica Clasica.html">Música Clásica</a>
+        </div>
+
+    </div>
+  <footer>
+    <p>&copy; Presentado por:<br>
+              *XD.</p>
+  </footer>
+
 </body>
 </html>
