@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Música Romántica Épica</title>
+    <style>
+        /* Fondo con gradiente y tipografía */
+        body {
+            background: linear-gradient(135deg, #ff5f6d, #ffc371);
+            color: white;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Estilo principal de título y subtítulo */
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            animation: glow 1.5s infinite alternate;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        /* Animación para el brillo del título */
+        @keyframes glow {
+            0% { text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px #ff6b81, 0 0 40px #ff6b81; }
+            100% { text-shadow: 0 0 20px white, 0 0 30px white, 0 0 40px #ffc371, 0 0 50px #ffc371; }
+        }
+
+        /* Estilos para el menú */
+        .menu a {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            color: white;
+            background-color: rgba(255, 255, 255, 0.2);
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Hover animado en los enlaces */
+        .menu a:hover {
+            background-color: white;
+            color: #ff5f6d;
+            transform: scale(1.1);
+            box-shadow: 0 4px 25px rgba(255, 255, 255, 0.6);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Música Romántica</h1>
+    <h3>¡Disfruta de las melodías más apasionadas en cualquier momento!</h3>
+
+    <!-- Menú de Enlaces -->
+    <div class="menu">
+       <a href="El Mismo Sol/El Mismo Sol.html">El Mismo Sol</a>
+        <a href="La Camisa Negra/La Camisa Negra.html">La Camisa Negra</a>
+        <a href="Navidad Sin Ti/Navidad Sin Ti.html">Navidad Sin Ti</a>
+    </div>
+
+</body>
+</html>

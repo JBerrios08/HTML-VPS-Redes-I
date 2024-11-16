@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Música Rock Épica</title>
+    <style>
+        /* Fondo oscuro y estilo de tipografía rock */
+        body {
+            background: linear-gradient(135deg, #333, #111);
+            color: #e6e6e6;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Estilo principal de título con sombras intensas */
+        h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            color: #f05454;
+            text-shadow: 0 0 10px #f05454, 0 0 20px #ff3b3b, 0 0 30px #ff1e1e;
+            animation: pulse 1.5s infinite alternate;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #ccc;
+            text-shadow: 0 0 5px #f05454;
+        }
+
+        /* Animación de pulso para el título */
+        @keyframes pulse {
+            0% { text-shadow: 0 0 10px #f05454, 0 0 20px #ff3b3b, 0 0 30px #ff1e1e; }
+            100% { text-shadow: 0 0 15px #ff3b3b, 0 0 25px #ff1e1e, 0 0 35px #ff1e1e; }
+        }
+
+        /* Estilos para el menú de enlaces */
+        .menu a {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            color: #e6e6e6;
+            background-color: rgba(255, 255, 255, 0.1);
+            text-decoration: none;
+            font-size: 1.2rem;
+            border: 2px solid #f05454;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Hover con efecto de escala y cambio de color */
+        .menu a:hover {
+            background-color: #f05454;
+            color: #111;
+            transform: scale(1.1);
+            box-shadow: 0 4px 25px rgba(255, 84, 84, 0.7);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Música Rock</h1>
+    <h3>¡Vibra con las mejores canciones de rock en cualquier momento!</h3>
+
+    <!-- Menú de Enlaces -->
+    <div class="menu">
+        <a href="Back In Black/Back In Black.html">Back In Black</a>
+        <a href="Bring Me To Life/Bring Me To Life.html">Bring Me To Life</a>
+        <a href="Mujer Amante/Mujer Amante.html">Mujer Amante</a>
+    </div>
+
+</body>
+</html>
